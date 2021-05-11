@@ -717,6 +717,57 @@ footer .footer-content .copyright p{
     .contactus-header{
         justify-content: center;
     }
+    .banner-section .text-on-carousel .heading p{
+        letter-spacing: 0.5rem;
+    }
+    
+    .banner-section .text-on-carousel{
+        position: absolute;
+        z-index: 5;
+        display: flex;
+        justify-content: space-around !important;
+        /* margin: 10% 33% 10% 33%; */
+        margin: 0 !important;
+        text-align: center;
+        align-self: center;
+    }
+    .banner-section .text-on-carousel .heading p{
+        font-size: 150%;
+    }
+
+    .banner-section .text-on-carousel .heading h2{
+        font-size: 100%;
+    }
+    
+    .banner-section .text-on-carousel .socials{
+        text-align: center;
+    }
+    .banner-section .text-on-carousel .socials{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .banner-section .text-on-carousel .socials .dribble{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+    }
+
+    .inputs{
+        font-size: 80%;
+        margin: auto;
+    }
+    .inputs #email{
+        margin-left: 0 !important;
+    }
+
+    .inputs .name-fields{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
 
 }
 
