@@ -781,13 +781,13 @@ footer .footer-content .copyright p{
         justify-content: space-around;
     }
 
-    @media only screen and (max-width:480px) {
-        html{
-          width: 100vw;
-          overflow-x: hidden;
-        }
-    }
-
 }
 
 /* TABLET VIEW END */
+
+@media only screen and (max-width:480px) {
+    html{
+      width: 100vw;
+      overflow-x: hidden;
+    }
+}
