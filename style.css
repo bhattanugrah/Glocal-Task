@@ -1,0 +1,723 @@
+
+
+body{
+    margin: 0;
+    height: 100%
+}
+
+.header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.navbar-dark .navbar-nav .nav-link.active{
+    font-size: 120%;
+}
+
+.navbar-dark .navbar-brand{
+    font-size: 120%;
+}
+
+.banner-section .text-on-carousel .heading p{
+    letter-spacing: 0.5rem;
+}
+
+.banner-section .text-on-carousel{
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 10% 33% 10% 33%;
+}
+.banner-section .text-on-carousel .heading p{
+    font-size: 3rem;
+}
+
+.banner-section .text-on-carousel .socials{
+    text-align: center;
+}
+.banner-section .text-on-carousel .socials{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-section .text-on-carousel .socials .dribble{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.banner-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: lightgray;
+}
+
+
+
+.carousel-item img{
+    object-fit: cover;
+    height: 75vh;
+}
+
+section{
+    margin-bottom: 3rem;
+}
+
+
+/* .about-us-section{
+    display: flex;
+    justify-content: space-around;
+} */
+
+.aboutus-header{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+.aboutus-header h1{
+    border-bottom: solid 1px red;
+}
+
+.about-us-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+.about-us-section .row .col i{
+    padding-bottom: 1rem;
+}
+
+.about-us-section .row .customer-care{
+    background: lightgray;
+}
+
+.about-us-section .col{
+    padding: 0 !important;
+    border: solid 1px black;
+}
+
+.about-us-section .row{
+    justify-content: center;
+}
+
+.about-us-content p{
+    text-align: center;
+}
+
+/* OUR SKILL START */
+
+.ourskill-section{
+    background: lightgray;
+    padding: 3rem;
+}
+
+.our-skill-header{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 2rem;
+}
+
+.our-skill-header h1{
+    border-bottom: solid 2px red;
+}
+
+.our-skill-content{
+    text-align: left;
+}
+
+.our-skill-content .col{
+    flex-direction: column;
+}
+
+.bar{
+    background: grey;
+    display: block;
+    height: 30%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    overflow: hidden;
+    outline: none;
+}
+
+.bar span{
+    height: 100%;
+    float: left;
+    background: red;
+    outline: none;
+}
+
+.ux{
+    width: 80%;
+}
+
+.webdev{
+    width: 90%;
+}
+
+.mobileapp{
+    width: 70%;
+}
+
+.sxo{
+    width: 50%;
+}
+
+.container .ux-research{
+    margin-bottom: 5rem;
+}
+.ourskills{
+    margin-bottom: 0 !important;
+}
+
+/* OUR SKILL END */
+
+/*QUOTES START */
+
+.quote{
+    display: flex;
+    justify-content: space-around;
+    background: gray;
+}
+
+.quotation{
+    width: 50%;
+    padding-top: 13%;
+    padding-bottom: 6%;
+}
+
+.quotation i{
+    font-size: 250%;
+    color: white;
+}
+.quotation p{
+    text-align: center;
+    font-size: 180%;
+    color: white;
+    
+}
+/* QUOTES END */   
+
+
+/* SERVICE START */
+
+.our_service-header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.our_service-header h1{
+    padding-bottom: 2rem;
+    border-bottom: solid 2px red;
+    margin-bottom: 8%;
+}
+
+.our_service .container .first-row .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.our-service-sub i{
+    padding-right: 5%;
+    font-size: 200%;    
+    color: gray;
+}
+.our-service-sub{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8%;
+}
+
+.our_service .container .row .col{
+    text-align: center;
+}
+
+.our_service .container .row .col .our-service-sub h5{
+    color: gray;
+}
+/* SERVICE END */
+
+
+/* OUR PORTFOLIO START */
+.our_portfolio-header{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.our_portfolio-header h1{
+    border-bottom: solid 2px red;
+    padding-bottom: 2rem;
+}
+
+.our-portfolio-section{
+    margin-top: 3rem;
+}
+.our-portfolio-section .tabs{
+    display: flex;
+    justify-content: center;
+}
+
+.our-portfolio-section .tab{
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0 !important;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: red 2px solid;
+    cursor: pointer;
+}
+.our-portfolio-section .active{
+    background: red;
+    color: white;
+}
+
+.our-portfolio-section .all{
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
+
+.our-portfolio-section .branding{
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+.our-portfolio-section .container{
+    margin-top: 5rem;
+}
+
+.our-portfolio-section .container .row {
+    text-align: center;
+}
+
+.our-portfolio-section .container .row .second-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: gray !important;
+    color: white;
+}
+
+.our-portfolio-section .container .row .col{
+    height: 10rem;
+    background: rgb(241, 240, 240);
+    color: rgb(241, 240, 240) ;
+    display: flex;
+    justify-content: space-around;
+}
+.our-portfolio-section .container .row .second-col{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.our-portfolio-section .container .row .secondrow-col{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+/* OUR PORFOLIO  END*/
+
+/* CUSTOMERS SECTION START */
+.customers{
+    background: rgb(69, 69, 69);
+}
+.customers .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.customers .container .projects-completed, .clients, .award-won, .coffee-meetup{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.customers .container .projects-completed h2, .clients h2, .award-won h2, .coffee-meetup h2{
+    font-size: 500%;
+}
+
+.customers .container .active{
+    color: red;
+}
+/* CUSTOMERS SECTION END */
+
+/*CONTACT US START */
+.contactus-header{
+    display: flex;
+    margin: 3rem;
+}
+
+.container .contactus-header h1{
+    padding-bottom: 2rem;
+    border-bottom: solid 2px red;
+}
+.inputs{
+    justify-content: space-around;
+}
+.contact-us .container .contact-us-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.contact-us .container .contact-us-content .inputs #email{
+    margin-left: 8rem;
+}
+.contact-us .container .contact-us-content .message{
+    margin-top: 10%;
+}
+
+
+
+.contact-us-content{
+    flex-wrap: wrap;
+}
+
+/*CONTACT US END */
+
+
+/* FOOTER CONTENT START */
+footer{
+    background: rgb(69 69 69);
+    height: 100%;
+}
+
+footer .footer-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* footer .footer-content .footer-title{
+    border-top: solid black 2px;
+} */
+
+footer .footer-content .container {
+    margin-bottom: 4rem;
+}
+footer .footer-content .container hr{
+    height: 5px;
+}
+
+footer .container {
+    margin-top: 0 !important;
+}
+
+
+footer .footer-content .footer-title h1{
+    margin-top: 3rem;
+}
+
+footer .footer-content{
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+footer .footer-content .icons{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 40% 0 40%;
+}
+footer .footer-content .icons i{
+    color: white;
+    font-size: 2rem;
+}
+
+footer .footer-content .copyright{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+footer .footer-content .copyright p{
+    color: white;
+}
+
+/* FOOTER CONTENT END */
+
+
+
+
+
+/* COMPUTER VIEW START */
+
+@media only screen and (min-width: 991px){
+
+    .navbar-expand-lg .navbar-collapse{
+        justify-content: flex-end !important;
+        margin-right: 15%;
+    }
+    .navbar-brand{
+        margin-left: 15%;
+    }
+    .menu-items li{
+        padding-left: 2rem;
+    }
+
+    /* Our Service Start */
+
+    .our_service .container .first-row{
+        margin-bottom: 8%;
+    }
+
+    .our_service .container .row .col{
+        max-width: 50%;
+    }
+    /* Our Service End */
+
+
+    /* Our Portfolio start */
+    .our-portfolio-section .container .first-row{
+        margin-top: 3rem;
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+    /* Our Portfolio  End */
+
+    /* CONTACT US START */
+
+    .contact-us-content .inputs .message textarea{
+        height: 5rem;
+        width: 10rem;
+    }
+
+    .contact-us-content .inputs .message #mobile-view{
+        display: none;
+    }
+
+    .contact-us-content .inputs .message #computer-view{
+        width: 100%;
+        height: 10%;
+    }
+
+    .contact-us .container .address .address-text{
+        border-left: solid gray 2px;
+        padding-left: 5rem;
+    }
+
+
+    /* CONTACT US END */
+
+}
+
+/*COMPUTER VIEW END */
+
+
+/*MOBILE VIEW START */
+@media only screen and (max-width: 400px){
+    .nav-link{
+        display: flex !important;
+        justify-content: space-around !important;
+    }
+    .navbar-dark .navbar-nav .nav-link.active{
+        background: white;
+        color: black;
+        border: 0 !important;
+    }
+
+    /*Our Skill Start */
+    .container .col{
+        margin-bottom: 2rem;
+    }
+
+    .container .row{
+        flex-direction: column;
+    }
+
+    .bar{
+        background: grey;
+        display: block;
+        height: 1rem;
+        border: 1px solid grey;
+        border-radius: 5px;
+        overflow: hidden;
+        outline: none;
+    }
+    
+    .bar span{
+        height: 100%;
+        float: left;
+        background: red;
+        outline: none;
+    }
+    .container .ux-research{
+        margin-bottom: 2rem;
+    }
+    /*OUR SKILL END */
+
+    /* QUOTATION START */
+
+    .quotation p{
+        font-size: 1.5rem;
+    }
+    /* QUOTATION END */
+
+    /* OUR PORTFOLIO START */
+
+    .tabs{
+        display: none !important;
+    }
+    .our-portfolio-section .container .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .our-portfolio-section .container .first-row{
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
+
+    .our-portfolio-section .container .col{
+        height: 250px;
+    }
+
+    .our-portfolio-section .container .secondrow-col{
+        margin: 0 !important;
+    }
+
+    .our-portfolio-section .container .second-col{
+        margin: 0 !important;
+    }
+    /* OUR PORTFOLIO END */
+
+    /*CUSTOMER START */
+    .customers .container .projects-completed, .clients, .award-won, .coffee-meetup{
+        margin: 1.5rem;
+    }
+
+    /* CUSTOMERS END */
+
+
+    /* CONTACT-US START */
+
+    .container .contactus-header{
+        justify-content: center;
+    }
+
+    .contact-us-content .inputs{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .contact-us-content .inputs #name{
+        margin-bottom: 2rem;
+    }
+
+    .contact-us-content .inputs input{
+        width: 100%;
+
+    }
+
+    .contact-us-content .inputs #email{
+        margin-left: 0 !important;
+    }
+
+    .contact-us-content .inputs #computer-view{
+        display: none;
+    }
+
+    .contact-us .container .address .address-text{
+        border-left: none;
+        border-top: solid black 2px;
+        padding-top: 2rem;
+    }
+    /* CONTACT-US END */
+
+
+    /* FOOTER START */
+    footer .footer-content .icons{
+        margin: 2% 20% 0 20%;
+    }
+
+    footer .footer-content .container{
+        margin-bottom: 3%;
+    }
+
+
+    /* FOOTER END */
+
+    .banner-section .text-on-carousel .heading p {
+        font-size: 2rem;
+    }
+    .banner-section .text-on-carousel{
+        margin: auto;
+    }
+
+}
+
+/* MOBILE VIEW END */
+
+
+/* TABLE VIEW START */
+@media only screen and (min-width: 401px) and (max-width: 960px){
+    .inputs{
+        margin: 0 10% 0 10%;
+    }
+
+    .inputs .message #mobile-view{
+        display: none;
+    }
+
+    .contact-us-content .address .address-text{
+        font-size: 150%;
+        margin-top: 2rem;
+        border-top: 2px solid black;
+        padding-top: 2rem;
+    }
+    .contactus-header{
+        justify-content: center;
+    }
+
+}
+
+/* TABLET VIEW END */
