@@ -291,6 +291,7 @@ section{
 
 .our_portfolio-header h1{
     border-bottom: solid 2px red;
+    font-size: 100%;
     padding-bottom: 2rem;
 }
 
@@ -600,6 +601,8 @@ footer .footer-content .copyright p{
 
     /* OUR PORTFOLIO START */
 
+
+
     .tabs{
         display: none !important;
     }
@@ -646,7 +649,7 @@ footer .footer-content .copyright p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 2rem;
+        margin: 20px;
     }
 
     .contact-us-content .inputs #name{
@@ -687,11 +690,22 @@ footer .footer-content .copyright p{
     /* FOOTER END */
 
     .banner-section .text-on-carousel .heading p {
-        font-size: 2rem;
+        font-size: 100%;
     }
+
+    .banner-section .text-on-carousel .heading h2{
+        font-size: 100%;
+    }
+
     .banner-section .text-on-carousel{
         margin: auto;
     }
+
+    .banner-section .text-on-carousel{
+        margin-top: 5rem;
+    }
+
+    
 
 }
 
